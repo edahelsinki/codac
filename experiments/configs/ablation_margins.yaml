@@ -1,0 +1,22 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params: {}
+  CODAC-nomust:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      must_margin: False
+  CODAC-betamax:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      cannot_margin: max
+  CODAC-beta1000:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      cannot_margin: const

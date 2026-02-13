@@ -1,0 +1,7 @@
+general:
+  pretrain_epochs: 50
+models:
+  Deep-FFQS:
+    model_loader_key: Deep-FFQS
+    data_config_key: Deep-FFQS
+    params: {}

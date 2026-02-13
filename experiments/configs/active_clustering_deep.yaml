@@ -1,0 +1,29 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params: {}
+  Deep-COBRA:
+    model_loader_key: Deep-COBRA
+    data_config_key: Deep-COBRA
+    params: {}
+  Deep-COBRA-bound:
+    model_loader_key: Deep-COBRA
+    data_config_key: Deep-COBRA
+    params: {}
+  Deep-ACDM:
+    model_loader_key: Deep-ACDM
+    data_config_key: Deep-ACDM
+    params: {}
+  Deep-COBRAS:
+    model_loader_key: Deep-COBRAS
+    data_config_key: Deep-COBRAS
+    params: {}
+  CODAC-random:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 1.0
+      random_mode: True

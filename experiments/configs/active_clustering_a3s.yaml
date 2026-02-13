@@ -1,0 +1,7 @@
+general:
+  pretrain_epochs: 0
+models:
+  A3S:
+    model_loader_key: A3S
+    data_config_key: A3S
+    params: {}

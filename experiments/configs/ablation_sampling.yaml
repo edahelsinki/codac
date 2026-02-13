@@ -1,0 +1,28 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      sample_mode: hybrid-sum-knn
+  CODAC-nodensity:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      sample_mode: hybrid-sum
+  CODAC-uncertainty:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      sample_mode: uncertainty
+  CODAC-diversity:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      sample_mode: diversity
+  CODAC-random-sample:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      sample_mode: random

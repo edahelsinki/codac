@@ -1,0 +1,7 @@
+general:
+  pretrain_epochs: 0
+models:
+  FFQS:
+    model_loader_key: FFQS
+    data_config_key: FFQS
+    params: {}

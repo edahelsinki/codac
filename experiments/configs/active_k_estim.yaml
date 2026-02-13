@@ -1,0 +1,17 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params: {}
+  CODAC-guess0.5:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      guess_k_multiplier: 0.5
+  CODAC-guess2.0:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      guess_k_multiplier: 2.0

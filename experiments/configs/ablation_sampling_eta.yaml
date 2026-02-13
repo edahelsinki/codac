@@ -1,0 +1,23 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC-0.5:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      uncertainty_weight: 0.5
+  CODAC-0.6:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      uncertainty_weight: 0.6
+  CODAC-0.7:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      uncertainty_weight: 0.7
+  CODAC-0.8:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      uncertainty_weight: 0.8

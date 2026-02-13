@@ -1,0 +1,7 @@
+general:
+  pretrain_epochs: 50
+models:
+  Deep-A3S:
+    model_loader_key: Deep-A3S
+    data_config_key: Deep-A3S
+    params: {}

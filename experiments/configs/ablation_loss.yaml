@@ -1,0 +1,22 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params: {}
+  CODAC-nosoftmin:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      mode: nosoftmin
+  CODAC-nopush:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      mode: nopush
+  CODAC-nossl:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      ssl_loss_weight: 0

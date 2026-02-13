@@ -1,0 +1,23 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC-DCN:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      deep_clusterer: DCN
+  CODAC-DKM:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      deep_clusterer: DKM
+  CODAC-IDEC:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      deep_clusterer: IDEC
+  CODAC-deepkmeans:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      deep_clusterer: deepkmeans

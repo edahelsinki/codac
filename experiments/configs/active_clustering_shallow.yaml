@@ -1,0 +1,28 @@
+general:
+  pretrain_epochs: 0
+models:
+  COBRA:
+    model_loader_key: COBRA
+    data_config_key: COBRA
+    params: {}
+  COBRA-bound:
+    model_loader_key: COBRA
+    data_config_key: COBRA
+    params: {}
+  COBRAS:
+    model_loader_key: COBRAS
+    data_config_key: COBRAS
+    params: {}
+  ACDM:
+    model_loader_key: ACDM
+    data_config_key: ACDM
+    params: {}
+  # FFQS:
+  #   model_loader_key: FFQS
+  #   data_config_key: FFQS
+  #   params: {}
+  # A3S:
+  #   model_loader_key: A3S
+  #   data_config_key: A3S
+  #   params: 
+  #     subsample: 10000

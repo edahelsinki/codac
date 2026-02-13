@@ -1,0 +1,13 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      softmin_weight: 1.1
+  CODAC-w1:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      softmin_weight: 1.0

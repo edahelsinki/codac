@@ -1,0 +1,28 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC-omega-0.01:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      softmin_omega: -0.01
+  CODAC-omega-0.1:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      softmin_omega: -0.1
+  CODAC-omega-1:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      softmin_omega: -1
+  CODAC-omega-10:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      softmin_omega: -10
+  CODAC-omega-100:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      softmin_omega: -100

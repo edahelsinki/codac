@@ -1,0 +1,28 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC-n=2:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      density_nearest_neighbors: 2
+  CODAC-n=10:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      density_nearest_neighbors: 10
+  CODAC-n=20:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      density_nearest_neighbors: 20
+  CODAC-n=100:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      density_nearest_neighbors: 100
+  CODAC-n=1000:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      density_nearest_neighbors: 1000

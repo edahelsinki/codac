@@ -1,0 +1,27 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params: {}
+  CODAC-b10:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      init_budget: 10
+  CODAC-b50:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      init_budget: 50
+  CODAC-b200:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      init_budget: 200
+  CODAC-b500:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      init_budget: 500

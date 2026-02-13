@@ -1,0 +1,129 @@
+general:
+  pretrain_epochs: 50
+models:
+  CODAC-con=10,ssl=2:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 10.0
+      ssl_loss_weight: 2.0
+  CODAC-con=10,ssl=1:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 10.0
+      ssl_loss_weight: 1.0
+  CODAC-con=10,ssl=0.5:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 10.0
+      ssl_loss_weight: 0.5
+  CODAC-con=10,ssl=0.1:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 10.0
+      ssl_loss_weight: 0.1
+  CODAC-con=10,ssl=0.01:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 10.0
+      ssl_loss_weight: 0.01
+  CODAC-con=10,ssl=0.001:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 10.0
+      ssl_loss_weight: 0.001
+  CODAC-con=10,ssl=0:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 10.0
+      ssl_loss_weight: 0.0
+  CODAC-con=2,ssl=2:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 2.0
+      ssl_loss_weight: 2.0
+  CODAC-con=2,ssl=1:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 2.0
+      ssl_loss_weight: 1.0
+  CODAC-con=2,ssl=0.5:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 2.0
+      ssl_loss_weight: 0.5
+  CODAC-con=2,ssl=0.1:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 2.0
+      ssl_loss_weight: 0.1
+  CODAC-con=2,ssl=0.01:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 2.0
+      ssl_loss_weight: 0.01
+  CODAC-con=2,ssl=0.001:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 2.0
+      ssl_loss_weight: 0.001
+  CODAC-con=2,ssl=0:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 2.0
+      ssl_loss_weight: 0.0
+  CODAC-con=1,ssl=2:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 1.0
+      ssl_loss_weight: 2.0
+  CODAC-con=1,ssl=1:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 1.0
+      ssl_loss_weight: 1.0
+  CODAC-con=1,ssl=0.5:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 1.0
+      ssl_loss_weight: 0.5
+  CODAC-con=1,ssl=0.1:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 1.0
+      ssl_loss_weight: 0.1
+  CODAC-con=1,ssl=0.01:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 1.0
+      ssl_loss_weight: 0.01
+  CODAC-con=1,ssl=0.001:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 1.0
+      ssl_loss_weight: 0.001
+  CODAC-con=1,ssl=0:
+    model_loader_key: CODAC
+    data_config_key: CODAC
+    params:
+      constraint_loss_weight: 1.0
+      ssl_loss_weight: 0.0
