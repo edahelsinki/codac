@@ -1,0 +1,17 @@
+.DS_Store
+
+# data cache
+experiments/data
+
+# results
+experiments/results
+experiments/figures
+experiments/scripts/logs
+experiments/dataset
+experiments/*.pdf
+experiments/*.png
+experiments/wandb
+experiments/__pycache__
+
+# external code
+ClustPy/
